@@ -1,0 +1,12 @@
+//CommonJS, every file is module (by default)
+//Module-Encapsulated Code (only share minimum)
+const names = require("./2_2 names")
+const sayHi = require("./2_3 function")
+const data = require("./2_4 alternative")
+require("./2_5 alternative2")
+
+//console.log(data.another)
+//console.log(names)
+sayHi('susan')
+sayHi(names.peter)
+sayHi(names.nini)
